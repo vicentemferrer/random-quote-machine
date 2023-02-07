@@ -1,0 +1,42 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body,
+#quote-box > * {
+  transition: background-color 2s ease-in-out,
+  color 1.5s ease-in-out; 
+}
+
+#quote-box {
+  width: 50%;
+  min-height: 40%;
+  padding: 40px;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quote {
+  margin: 15px auto;
+  width: 75%;
+}
+
+#quote-box > div.row {
+  margin: 15px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#developed-by {
+  margin: 15px auto;
+  color: whitesmoke;
+}
